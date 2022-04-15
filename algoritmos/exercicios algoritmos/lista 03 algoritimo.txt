@@ -1,0 +1,58 @@
+prog EX01-comando enquanto
+real s,n,d
+s<-0;
+n<-1;
+d<-1;
+enquanto(d<=50)
+{
+    s<-s+n/d;
+    n<-n+2;
+    d<-d+1;
+}
+imprima"somatoria",s;
+fim prog
+_________________________________________________________________________________________
+prog EX01-comado para
+real s,n,d;
+s<-0;
+n<-1;
+para(d<-;d<=50;d<-d+1)
+{
+    s=s+n/d;
+    n=n+2;
+}
+imprima"somatoria:",s;
+fimprog
+_________________________________________________________________________________________
+prog02
+real s,n1,n2,d
+s<-0;
+n1<37;
+n2<38;
+d<1;
+enquanto(D<=37);
+{
+    s<-s+(n1*n2/d);
+    n1<-n1-1;
+    n2<-n2-1;
+    d<d+1;
+}
+imprima"somatoria:",s;
+fimprog
+_________________________________________________________________________________________
+prog03
+real s,n,D
+s<-0;
+n<-1000;
+d<-1;
+enquanto(s<=50);
+{
+    s<-s+n/D;
+    n<-n-3;
+    d<-d+1;
+
+
+}
+imprima"somatoria",s;
+fimprog
+

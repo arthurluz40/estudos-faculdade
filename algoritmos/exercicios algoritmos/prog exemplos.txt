@@ -1,0 +1,34 @@
+prog exemplos
+int m
+n<-d;
+enquanto(n < 6)
+{
+    imprima n,"/n";
+    n<-n+1;
+}
+fimprog
+__________________________________________
+mostrar os pares de 0 ate 10.
+int n;
+n<-0;
+enquanto(n<=10)
+{
+    imprima n,"\n";
+    n<-n+2;
+}
+____________________________________________
+calcule e mostre a soma dos numeros pares de 0 ate 10
+
+
+prog soma 
+int n, soma;
+n<-2;
+soma<-0
+enquanto(n<=10)
+{
+    soma<-soma+n;
+    n<-n+2;
+    
+}
+imprima"a soma e:",soma;
+
